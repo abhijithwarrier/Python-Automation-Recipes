@@ -14,10 +14,10 @@ from pathlib import Path
 # --- Step 1: Configure paths ---
 
 # Input CSV file
-CSV_FILE = Path("data.csv")        # 🔁 change this
+CSV_FILE = Path("data.csv")         # Set this to your CSV File
 
 # Output Excel file
-EXCEL_FILE = Path("report.xlsx")
+EXCEL_FILE = Path("report.xlsx")    # Set this to your Excel File
 
 # --- Step 2: Load CSV data ---
 if not CSV_FILE.exists():
